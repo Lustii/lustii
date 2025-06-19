@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+    color: #f0ead6; /* Off-White */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    min-height: 100vh; /* Ensure body takes full viewport height for gradient */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Optional: Add a subtle text shadow for the logo for better contrast on glassmorphism */
+.text-shadow-glow {
+    text-shadow: 0px 0px 8px rgba(255, 160, 200, 0.4), /* Pinkish glow */ 0px 0px 15px rgba(191, 143, 124, 0.3); /* Rose gold glow */
+}
